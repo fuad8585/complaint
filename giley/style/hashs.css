@@ -1,0 +1,8 @@
+.hash {}
+
+.hash__name {
+    color: #f5f4f2;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}

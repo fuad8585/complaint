@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+font-family: 'Muli', sans-serif;
+font-family: 'Arimo', sans-serif; */
+
+body {
+    font-family: 'Muli', sans-serif;
+    background: url(../images/cd.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.bg__plyonka {
+    background-color: rgba(0, 0, 0, 0.884);
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 45px;
+    padding-top: 60px;
+}
+
+.signup__box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.gender {
+    border: 1px solid #4caf50;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.gender option {
+    color: black;
+}
+
+.q__btn {
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: all .25s;
+    outline: none;
+}
+
+.q__btn:hover {
+    background-color: #4caf50;
+}
+
+.registr_yes {
+    color: #4caf50;
+}
+
+.registr_yes:hover {
+    color: #4caf50;
+}

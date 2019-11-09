@@ -1,0 +1,24 @@
+.row {
+    text-align: center;
+}
+
+.col-sm-3 {
+    text-align: center;
+}
+
+@media (max-width:1232px) {
+    .main__inner {
+        justify-content: space-around;
+    }
+}
+
+img {
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 -6px 12px 0 #4caf50, 0 4px 10px 0 #4caf50;
+}
+
+h2 {
+    font-family: 'Muli', sans-serif;
+    color: #4caf50;
+}

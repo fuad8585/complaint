@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.header__content {
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #f5f4f2;
+}
+
+input,
+pre {
+    max-width: 450px;
+}
+
+.row,
+.col-sm-12 {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,135 @@
+.row {
+    margin: 0 auto;
+}
+
+.col-md-6 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__inner {
+    justify-content: space-around;
+}
+
+@media (max-width:1080px) {}
+
+textarea {
+    width: 100%;
+    padding: 5px 10px 5px 5px;
+    resize: none;
+}
+
+.btn-display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-display button {
+    padding: 0px 33px;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.panel-body {
+    padding: 15px;
+    padding-bottom: 2px;
+}
+
+.text-primary {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.panel-body h4 {
+    font-family: 'Muli', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: 92px;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.panel-body p {
+    background-color: #4874bf34;
+    padding-top: 9px;
+    padding-left: 8px;
+}
+
+.panel-body {
+    position: relative;
+}
+
+.comment_user-image {
+    border-radius: 8px;
+    max-width: 70px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.panel-body {
+    border-radius: 8px;
+    padding: 4px 10px 5px 4px;
+}
+
+.u_inf_inner {
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    font-size: 14px;
+}
+
+.object__rate {
+    padding: 0;
+}
+
+.rate_container {
+    display: block;
+}
+
+.reply_to_comment {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 70, 0);
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.rate_container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.reply_to_comment:hover {
+    color: rgb(0, 70, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 420px) {
+    .rate_container {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 25px;
+    }
+    .reply_to_comment {
+        padding-top: 7px;
+    }
+    .panel-body h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .rate_container {
+        padding-bottom: 35px;
+    }
+}

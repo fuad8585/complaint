@@ -1,0 +1,143 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+font-family: 'Muli', sans-serif;
+font-family: 'Arimo', sans-serif; */
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    background: url(../images/bgg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg__plyonka {
+    background-color: rgba(0, 0, 0, 0.884);
+    min-height: 100vh;
+}
+
+h1 {
+    padding-top: 110px;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    color: #4caf50;
+    animation: text-shadow 2.5s ease-in-out infinite;
+    outline: none;
+}
+
+h1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes text-shadow {
+    0% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+    20% {
+        transform: translateY(-1em);
+        text-shadow: 0 0.125em 0 #0c2ffb, 0 0.25em 0 #2cfcfd, 0 -0.125em 0 #fb203b, 0 -0.25em 0 #fefc4b;
+    }
+    40% {
+        transform: translateY(0.5em);
+        text-shadow: 0 -0.0625em 0 #0c2ffb, 0 -0.125em 0 #2cfcfd, 0 0.0625em 0 #fb203b, 0 0.125em 0 #fefc4b;
+    }
+    60% {
+        transform: translateY(-0.25em);
+        text-shadow: 0 0.03125em 0 #0c2ffb, 0 0.0625em 0 #2cfcfd, 0 -0.03125em 0 #fb203b, 0 -0.0625em 0 #fefc4b;
+    }
+    80% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.login-box h2 {
+    float: left;
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 45px;
+    padding-top: 60px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.login__btn {
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: all .25s;
+    outline: none;
+}
+
+.login__btn:hover {
+    background-color: #4caf50;
+}
+
+.registr {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #4caf50;
+    font-size: 18px;
+    outline: none;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.registr:hover {
+    color: #4caf50;
+}
